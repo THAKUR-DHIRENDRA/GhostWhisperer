@@ -11,10 +11,24 @@
 *.gch
 *.pch
 
+<<<<<<< HEAD
+=======
+# Linker files
+*.ilk
+
+# Debugger Files
+*.pdb
+
+>>>>>>> 29dba9676a01e9f9b6ee686503c35ad7bece1f41
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
+<<<<<<< HEAD
+=======
+*.so.*
+
+>>>>>>> 29dba9676a01e9f9b6ee686503c35ad7bece1f41
 
 # Fortran module files
 *.mod
@@ -29,4 +43,40 @@
 # Executables
 *.exe
 *.out
+<<<<<<< HEAD
 *.app
+=======
+*.app
+
+# Build directories
+build/
+Build/
+build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# vcpkg
+vcpkg_installed/
+
+# debug information files
+*.dwo
+
+# test output & cache
+Testing/
+.cache/
+
+# Audio files
+*.wav
+>>>>>>> 29dba9676a01e9f9b6ee686503c35ad7bece1f41
